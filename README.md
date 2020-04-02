@@ -19,3 +19,4 @@ The obvious way to improve the performance of deep neural networks is by increas
 With GoogleNet the idea is to increase the number of filters by using inception modules. While designing this model they have considered the computational budget fixed. Therefore, this model is suitable for embedded systems and mobile and edge applications. Despite 22 layers, the number of parameters used used is 12 time less than AlexNet but its accuracy is significantly better.
 ![](Figures/Inception.png)
 ## MiniGoogLeNet on CIFAR-10
+The architecture consists of a conv_module, inception_module downsample_module
